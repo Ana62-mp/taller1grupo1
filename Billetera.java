@@ -8,7 +8,7 @@ public class Billetera {
     } 
  
     public void transferir(double monto) { 
-        saldo = saldo - (monto*1.05); 
+        saldo = saldo - (monto*1.02); 
     } 
  
     public void mostrarSaldo() { 
