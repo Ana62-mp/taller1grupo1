@@ -1,5 +1,5 @@
 public class Billetera { 
-    double saldo; 
+    double balanceTotal; 
     String titular; 
  
     public Billetera(String titular, double saldoInicial) { 
