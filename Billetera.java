@@ -8,6 +8,10 @@ public class Billetera {
     } 
  
     public void transferir(double monto) { 
+        if(monto > saldo) { 
+            System.out.println("Saldo insuficiente para realizar la transferencia."); 
+            return; 
+        }
         saldo = saldo - monto; 
     } 
  
