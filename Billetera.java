@@ -13,5 +13,7 @@ public class Billetera {
  
     public void mostrarSaldo() { 
         System.out.println("Saldo de " + titular + ": $" + saldo); 
+        System.out.println("Cuanto quiere tranferir? " ); 
+
     } 
 } 
