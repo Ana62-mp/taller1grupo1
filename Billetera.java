@@ -14,9 +14,12 @@ public class Billetera {
         }
         saldo = saldo - monto; 
         saldo = saldo - (monto*1.05); 
+        saldo = saldo - (monto*1.02); 
     } 
  
     public void mostrarSaldo() { 
+        System.out.println("Saldo de " + titular + ": $" + saldo); 
+        System.out.println("Saldo de " + titular + ": $" + saldo); 
         System.out.println("Saldo de " + titular + ": $" + saldo); 
     } 
 } 
