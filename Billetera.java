@@ -1,6 +1,5 @@
 public class Billetera { 
-    double saldo; 
-    String moneda = "USD";
+    double balanceTotal; 
     String titular; 
  
     public Billetera(String titular, double saldoInicial) { 
@@ -9,7 +8,7 @@ public class Billetera {
     } 
  
     public void transferir(double monto) { 
-        saldo = saldo - monto; 
+        saldo = saldo - (monto*1.05); 
     } 
  
     public void mostrarSaldo() { 
