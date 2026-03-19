@@ -13,7 +13,6 @@ public class Billetera {
             return; 
         }
         saldo = saldo - monto; 
-        saldo = saldo - (monto*1.05); 
         saldo = saldo - (monto*1.02); 
     } 
  
